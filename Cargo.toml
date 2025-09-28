@@ -1,0 +1,28 @@
+[package]
+name = "www-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["GaoNeng-wWw <gaonenggg@outlook.com>"]
+description = "GaoNeng-wWw's CLI toolkit"
+
+[[bin]]
+name = "www"
+path = "src/main.rs"
+
+[dependencies]
+aes-gcm = "0.10"
+pbkdf2 = "0.12"
+sha2 = "0.10"
+rand = "0.8"
+rpassword = "7.0"
+clap = { version = "4.5.48", features = ["derive"] }
+ansi_term = "0.12.1"
+
+[dev-dependencies]
+tempfile = "3.8"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
