@@ -1,9 +1,10 @@
 [package]
-name = "www-cli"
+name = "gaonengwww-cli"
 version = "0.1.0"
 edition = "2021"
 authors = ["GaoNeng-wWw <gaonenggg@outlook.com>"]
 description = "GaoNeng-wWw's CLI toolkit"
+license = "MIT"
 
 [[bin]]
 name = "www"

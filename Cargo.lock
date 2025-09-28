@@ -230,6 +230,20 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "37909eebbb50d72f9059c3b6d82c0463f2ff062c9e95845c43a6c9c0355411be"
 
 [[package]]
+name = "gaonengwww-cli"
+version = "0.1.0"
+dependencies = [
+ "aes-gcm",
+ "ansi_term",
+ "clap",
+ "pbkdf2",
+ "rand",
+ "rpassword",
+ "sha2",
+ "tempfile",
+]
+
+[[package]]
 name = "generic-array"
 version = "0.14.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -754,20 +768,6 @@ name = "wit-bindgen"
 version = "0.46.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f17a85883d4e6d00e8a97c586de764dabcc06133f7f1d55dce5cdc070ad7fe59"
-
-[[package]]
-name = "www-cli"
-version = "0.1.0"
-dependencies = [
- "aes-gcm",
- "ansi_term",
- "clap",
- "pbkdf2",
- "rand",
- "rpassword",
- "sha2",
- "tempfile",
-]
 
 [[package]]
 name = "zerocopy"
