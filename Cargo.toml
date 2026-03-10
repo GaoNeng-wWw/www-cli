@@ -18,6 +18,9 @@ rand = "0.8"
 rpassword = "7.0"
 clap = { version = "4.5.48", features = ["derive"] }
 ansi_term = "0.12.1"
+tabled = "*"
+chrono = "0.4.44"
+tyme4rs = "1.4.1"
 
 [dev-dependencies]
 tempfile = "3.8"
